@@ -1,7 +1,7 @@
 
-{
+/* {
 	font-size:10px;
-}
+} */
 
 .box-model
 {
@@ -9,7 +9,25 @@
 	margin:2rem;
 	padding: 2rem;
 	border-width:1rem;
-	border-color:black;
+	border-color:red;
 	border-style: solid;
 
+}
+.box-model2
+{
+	padding: 3rem;
+	margin: 2rem;
+	width: 13.5rem;
+	background-repeat: no-repeat;
+	border: 2rem solid rgba(0, 0, 0, 0.5);
+	background-size: 13.5rem;
+	background-image: url('https://mdn.mozillademos.org/files/11947/ff-logo.png');
+	overflow: auto;
+	background-color: gold;
+	background-clip: padding-box;
+}
+p[p-box]
+{
+	border:0.1rem solid greenyellow;
+	display: block;
 }
