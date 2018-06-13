@@ -25,3 +25,18 @@
 	float: right;
 	width: 30%;
 }
+
+div,footer
+{
+	padding:1%;
+	border: 0.2rem solid black;
+	background-color: red;
+}
+*{
+ box-sizing: border-box;
+}
+footer
+{
+	clear:both;
+	margin-top:400rem;
+}
