@@ -1,0 +1,64 @@
+.div_center{
+    align-content: center;
+    height:  40rem;
+}
+.div_center::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.div_title{
+    background-color: rgb(65, 61, 61);
+    font-size: 2rem;
+    color: white;
+    float: top;
+    height: 15%;
+    width: 100%;
+}
+.div_second{
+    font-size: 1.3rem;
+    font-weight: bold;   
+    background-color:rgb(128, 118, 118);
+    border-top: white 0.1rem solid;
+    float: left;
+    height: 8rem;
+}
+.div_content{
+    height: 8rem;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 5rem; 
+}
+.div_third{
+    /* display: inline; */
+    font-size: 1rem;
+    font-weight: bold;  
+    background-color: #fff;
+    float: LEFT;
+    align-content: center;
+    
+}
+.div_four{
+    font-size: 1rem;
+    /* display: INLINE; */
+    background-color: #fff;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+.biggest{
+    border: 0.1rem solid black;
+    box-sizing: border-box;
+}
+.biggest::after{
+    content: "";
+    display: inline;
+    clear: both;
+}
+[heigh]{
+    display: block;
+    margin: 0;
+    overflow: auto;
+}
+

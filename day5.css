@@ -35,8 +35,14 @@ div,footer
 *{
  box-sizing: border-box;
 }
-footer
+.footer_class
 {
-	clear:both;
-	margin-top:400rem;
+	/* clear:left; */
+	margin-top:4rem;
+	padding: 0.5%;
+	display: flow-root;
 }
+/* #footer_id
+{
+	display: block;
+} */
