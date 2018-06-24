@@ -1,0 +1,46 @@
+.div_center{
+    align-content: center;
+    height:  30rem;
+}
+.div_center::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.div_title{
+    margin: 0.5rem;
+    background-color: deepskyblue;
+    font-size: 2rem;
+    float: left;
+    height: 95%;
+    text-align: center;
+    color: wheat
+}
+.div_content{
+    margin-left: 5rem; 
+    align-content: center;
+}
+.div_second{
+    font-size: 1.3rem;
+    font-weight: bold;   
+    margin: 1rem; 
+}
+.div_third{
+    display: inline;
+    font-size: 1rem;
+    font-weight: bold;  
+    margin-left: 1rem; 
+}
+.div_four{
+    font-size: 1rem;
+    display: inline;
+    margin: 1rem; 
+    margin-left: 0.5rem;
+    font-weight: initial;
+}
+.div_third::after{
+    content: ":";
+}
+    .biggest{
+        border: 0.1rem solid black;
+    }

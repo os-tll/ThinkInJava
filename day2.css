@@ -18,9 +18,9 @@ table
 {
     font-size: 2rem;
 }
-td[bgColor*='blue']
+a::first-letter[bgColor*='blue']
 {
-    background-color: blue;
+    color: blue;
 }
 td[bgColora*='yellow']
 {
@@ -33,6 +33,11 @@ td[email]
 a
 {
     text-decoration: none;
+    font-family: sans-serif, Helvetica
 }
 
-    
+ #bl
+ {
+     font-size: 2rem;
+     color: rebeccapurple;
+ }   
