@@ -1,0 +1,47 @@
+.info-box {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    /* position: absolute; */
+}
+
+h2 {
+    background-color: red;
+}
+
+.article1 {
+    position: absolute;
+    z-index: 1;
+    top: 10;
+    width: 30%;
+    left: 0%;
+    background-color: springgreen;
+}
+
+.article2 {
+    position: absolute;
+    z-index: 2;
+    top: 10;
+    width: 30%;
+    left: 0%;
+    background-color: slateblue;
+}
+
+.article3 {
+    position: absolute;
+    z-index: 3;
+    top: 10;
+    width: 30%;
+    left: 0%;
+    background-color: sandybrown;
+}
+p{
+    overflow: hidden;
+    
+}
+li{
+    display: inline;
+}
+ul{
+    margin: 0;
+}
