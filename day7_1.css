@@ -1,0 +1,16 @@
+.main{
+    background-color: #00ffff;
+    overflow: hidden;
+}
+.left{
+    /* clear: both; */
+    float: left;
+    background-color: red;
+}
+.right{
+    background-color: blue;
+    float: right;
+}
+div{
+    margin: 2rem;
+}
