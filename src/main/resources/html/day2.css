@@ -1,0 +1,43 @@
+table
+{
+        border-color: cadetblue;
+        background-color: chocolate;
+        border: 10px solid black
+}
+.spanClassa
+{
+    /*size:1.5rem;*/
+    color: chartreuse;
+}
+#spanClass
+{
+    size:2rem;
+    color: yellow;
+}
+[tll="132"]
+{
+    font-size: 2rem;
+}
+a::first-letter[bgColor*='blue']
+{
+    color: blue;
+}
+td[bgColora*='yellow']
+{
+    background-color: black;
+}
+td[email]
+{
+    text-align: right;
+}
+a
+{
+    text-decoration: none;
+    font-family: sans-serif, Helvetica
+}
+
+ #bl
+ {
+     font-size: 2rem;
+     color: rebeccapurple;
+ }   

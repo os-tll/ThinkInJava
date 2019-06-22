@@ -1,0 +1,48 @@
+.img-local
+{
+	float:left;
+	margin-left:20rem;
+	width:10rem;
+}
+.p-inline
+{
+	font-size:1.5rem;
+	background-image: linear-gradient(rgb(158, 179, 158),rgb(113, 165, 214));
+}
+.div-class
+{
+	float: left;
+	width: 30%;
+}
+.div-class2
+{
+	margin-left: 5%;
+	float: left;
+	width: 30%;
+}
+.div-class3
+{
+	float: right;
+	width: 30%;
+}
+
+div,footer
+{
+	padding:1%;
+	border: 0.2rem solid black;
+	background-color: red;
+}
+*{
+ box-sizing: border-box;
+}
+.footer_class
+{
+	/* clear:left; */
+	margin-top:4rem;
+	padding: 0.5%;
+	display: flow-root;
+}
+/* #footer_id
+{
+	display: block;
+} */

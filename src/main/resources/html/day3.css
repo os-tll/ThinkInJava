@@ -1,0 +1,80 @@
+h1
+{
+    background-image: linear-gradient(to bottom right,orange,green 20%,yellow);
+    /* background-size: 1rem,3rem; */
+    background-repeat: no-repeat;
+    background-position: 100%,50%
+}
+.div-size
+{
+    width: 20rem; height: 3rem; position: absolute;left: 0;right: 0;margin: auto;
+}
+.div-size2
+{
+    position: absolute;left: 0;right: 0;margin: auto;top: 10rem;
+}
+.div-padding
+{
+    padding: 1rem;
+    margin: 2rem;
+    border-color: red;
+    border-style: solid;
+    border-radius: 1rem;
+}
+table
+{
+    border: 1px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* ol
+{
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    background-image: url(http://lorempixel.com/640/480/cats);
+    background-size: 2rem,2rem;
+    background-repeat: repeat;
+    background-position: 100%,50%; 
+} */
+a[link-css]:link
+{
+    color:salmon;
+}
+a[link-css]:visited
+{
+    color:royalblue;
+}
+a[link-css]:focus
+{
+    color:saddlebrown;
+}
+a[link-css]:hover
+{
+    color:seagreen;
+}
+a[link-css]:active
+{
+    color:turquoise;
+}
+a[href*="http"]
+{
+    background: url(https://mdn.mozillademos.org/files/12982/external-link-52.png) 100% 0% no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: 0.5rem,0.5rem;
+    padding-right: 1rem;
+}
+li:nth-of-type(2n+1)
+{
+    background-color:rgb(236, 233, 233);
+}
+li:nth-of-type(2n)
+{
+    background:rgb(179, 141, 187);
+}
+p::first-letter
+{
+    /* font: 2em sans-serif bolder; */
+    font-weight: bolder;
+    font-size: 5rem;
+}
