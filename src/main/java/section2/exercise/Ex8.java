@@ -8,7 +8,9 @@ package section2.exercise;
  */
 public class Ex8 {
     static int i = 11;
-    int j = 22;
+    protected int j = 22;
+    int x = 22;
+    public int y = 22;
     public static void main(String[] args) {
         Ex8 ex8i1 = new Ex8();
         Ex8 ex8i2 = new Ex8();

@@ -16,7 +16,7 @@ public class Ex7 {
     }
 
 }
-class Incrementable{
+ class Incrementable{
     static int increment(){
         return ++Ex7.i;
     }

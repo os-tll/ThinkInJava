@@ -8,6 +8,7 @@ package section5;
 public class Ex1 {
     public static void main(String[] args) {
         new Init();
+
     }
 }
 class Init{
