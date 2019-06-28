@@ -7,6 +7,7 @@ package section6;
  */
 public class Ex5 {
 
+    protected int h;
     public static void main(String[] args) {
         TestEx5 ex5 = new TestEx5();
         int i = ex5.i;
