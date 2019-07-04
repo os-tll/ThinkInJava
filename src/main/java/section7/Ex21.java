@@ -8,7 +8,7 @@ package section7;
  */
 public class Ex21 extends Ex21Aid {
 //!    @Override
-//!    public void fun(){
+//!    public void exchangeStr(){
 //!
 //!    }
 
