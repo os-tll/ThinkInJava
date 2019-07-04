@@ -23,6 +23,6 @@ public class Ex8 {
 
     public static void main(String[] args) {
         new Ex8().fun1();
-        //! Ex8("ass");   除构造器之外，禁止在其他方法中调用构造器
+        //! Ex9("ass");   除构造器之外，禁止在其他方法中调用构造器
     }
 }
