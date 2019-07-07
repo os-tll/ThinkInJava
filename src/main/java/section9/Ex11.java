@@ -11,10 +11,10 @@ public class Ex11 {
     public static void main(String[] args) {
         Ex11 ex11 = new Ex11();
         ex11.processor = new Upcase();
-        new Apply().porcess(ex11.processor,"abcde");
+        new Apply().callProcess(ex11.processor,"abcde");
         //使用适配器之后就可以调用新的方法了
         ex11.processor = new ProcessorAdapter();
-        new Apply().porcess(ex11.processor,"abcde");
+        new Apply().callProcess(ex11.processor,"abcde");
 
 
     }
@@ -55,7 +55,7 @@ class Upcase implements Processor{
 }
 //策略模式使用接口实现
 class Apply{
-    public void porcess(Processor p, Object s){
+    public void callProcess(Processor p, Object s){
         System.out.println("Using Processor " + p.name());
         System.out.println(p.process(s));
     }

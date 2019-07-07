@@ -12,7 +12,6 @@ public class Ex1 {
         Ex1Aid ex1Aid3 = new Ex1Aid3();
         ex1Aid2.fun();
         ex1Aid3.fun();
-
     }
 }
 class Ex1Aid{
