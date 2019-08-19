@@ -1,6 +1,5 @@
 package section6;
 
-import section2.exercise.Ex1;
 //! import section3.excercise.Ex1;
 /**
  * 验证同名类使用时不指定包会出现冲突

@@ -8,7 +8,8 @@ package section3;
  */
 public class XorImpl {
     public static void main(String[] args) {
-        boolean a = true;boolean b = false;
+        boolean a = true;
+        boolean b = false;
         boolean b1 = a ^ b;
         //约定俗成  1 true 0 false
         int arg0Flag =  (Integer.valueOf(args[0]) > 1) ? 1 : 0;
