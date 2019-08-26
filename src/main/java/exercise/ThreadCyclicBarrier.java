@@ -30,7 +30,6 @@ public class ThreadCyclicBarrier {
         };
         //使用无限线程的Executor
         ExecutorService service = Executors.newCachedThreadPool();
-//      FutureTask futureTask1 = new FutureTask<>(callable);
         Future futureTask1 = service.submit(callable);
         Future futureTask2 = service.submit(callable);
         Future futureTask3 = service.submit(callable);

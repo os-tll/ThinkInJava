@@ -1,21 +1,25 @@
-package exercise;
+package sort;
 
 /**
  * https://mp.weixin.qq.com/s/TYPXI785CTJo1I7hOCo0mg
  * 希尔排序
  * 核心：通过步长的不断缩短，保证排序过的步长都是有序的，直至步长为1，兜底
- * 复杂度：Nlog(2N)
+ * 复杂度：Nlog(2N) 用时2.646S
  *
  * @author tanglonglong
  * @version 1.0
  * @date 2019/8/25 14:26
  */
-public class Sort6 {
+public class Sort5 {
     public static void main(String[] args) {
-        Sort6 sort6 = new Sort6();
-        int[] ints = {2, 1, 5, 0, 6, 0, 1, 3, 9};
-        int[] sort = sort6.sort(ints);
-        System.out.println(sort);
+        Sort1 sort1 = new Sort1();
+        Sort5 sort5 = new Sort5();
+        int[] ints = sort1.generateArray(100000);
+//        int[] ints = {2,4,1,3,0,5};
+        long timeMillis = System.currentTimeMillis();
+        int[] sort = sort5.sort(ints);
+        double v = (System.currentTimeMillis() - timeMillis) / 1000.0;
+        System.out.println(v);
     }
 
     public int[] sort(int[] arr) {

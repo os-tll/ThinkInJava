@@ -1,7 +1,7 @@
 package section11;
 
 
-import java.util.Iterator;
+import java.util.*;
 
 /**
  * @author tanglonglong ＼(－－)／
@@ -13,8 +13,11 @@ public class Ex30 {
             new Ex30Aid(), new Ex30Aid(), new Ex30Aid(),
             new Ex30Aid(), new Ex30Aid(), new Ex30Aid(),
             new Ex30Aid(), new Ex30Aid(), new Ex30Aid()};
-
     public Iterator<Ex30Aid> iterator() {
+    String [] s = {"aa","ddd"};
+        for (String ss: s ) {
+
+        }
         return new Iterator<Ex30Aid>() {
             int i = 0;
 
