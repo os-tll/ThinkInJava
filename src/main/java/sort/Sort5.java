@@ -4,7 +4,7 @@ package sort;
  * https://mp.weixin.qq.com/s/TYPXI785CTJo1I7hOCo0mg
  * 希尔排序
  * 核心：通过步长的不断缩短，保证排序过的步长都是有序的，直至步长为1，兜底
- * 复杂度：Nlog(2N) 用时2.646S
+ * 复杂度：Nlog(2N) 用时0.02S
  *
  * @author tanglonglong
  * @version 1.0
@@ -27,7 +27,7 @@ public class Sort5 {
         //控制步长，不断的缩短，直至1
         for (int gap = length / 2; gap >= 1; gap /= 2) {
             //从第一个元素开始，不断的进行查找合适位置
-            for (int i = gap; i < length; i += gap) {
+            for (int i = gap; i < length; i ++) {
                 int itemp = i;
                 //查找合适位置的过程，当前一个元素比它小时，说明需要交换位置
                 //i一直指定的是待移动的数
