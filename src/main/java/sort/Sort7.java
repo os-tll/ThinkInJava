@@ -30,7 +30,6 @@ public class Sort7 {
      * @param begin 第一段开始下标
      * @param media 第一段结尾下标
      * @param high 第二段结尾下标
-     * @return void
      * @author tanglonglong ＼(－－)／
      * @date 16:29 2019/8/26
      */
