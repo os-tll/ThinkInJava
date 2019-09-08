@@ -13,7 +13,7 @@ public class Sort3 {
     public static void main(String[] args) {
         Sort1 sort1 = new Sort1();
         Sort3 sort3 = new Sort3();
-        int[] ints = sort1.generateArray(100000);
+        int[] ints = Sort1.generateArray(1000000);
         long timeMillis = System.currentTimeMillis();
         sort3.sort(ints,0,ints.length-1);
         double v = (System.currentTimeMillis() - timeMillis) / 1000.0;

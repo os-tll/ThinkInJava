@@ -16,13 +16,13 @@ import java.util.Random;
 public class Sort1 {
     public static void main(String[] args) {
         Sort1 sort1 = new Sort1();
-        int[] ints = sort1.generateArray(100000);
+        int[] ints = generateArray(100000);
         long timeMillis = System.currentTimeMillis();
         sort1.sort(ints);
         double v = (System.currentTimeMillis() - timeMillis) / 1000.0;
         System.out.println(v);
     }
-    public int[] generateArray(int size){
+    public static int[] generateArray(int size){
         Random random = new Random(47);
         int[] ints = new int[size];
         for (int i = 0; i < size; i++) {

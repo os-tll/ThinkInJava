@@ -30,7 +30,7 @@ public class Sort {
         }
     }
 
-    public void swap(int[] A, int x, int y) {
+    public static void swap(int[] A, int x, int y) {
         int x1 = A[x];
         A[x] = A[y];
         A[y] = x1;
