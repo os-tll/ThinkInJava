@@ -16,7 +16,7 @@ public class Sort6 {
     public static void main(String[] args) {
         Sort1 sort1 = new Sort1();
         Sort6 sort6 = new Sort6();
-        int[] ints = sort1.generateArray(100000);
+        int[] ints = Sort1.generateArray(100000);
 //        int[] ints = {2,4,1,3,9,4,6,8,92,6,8,0,5};
         long timeMillis = System.currentTimeMillis();
         int[] sort = sort6.sort(ints);

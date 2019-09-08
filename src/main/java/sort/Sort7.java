@@ -13,7 +13,7 @@ package sort;
 public class Sort7 {
     public static void main(String[] args) {
         Sort1 sort1 = new Sort1();
-        int[] ints = sort1.generateArray(100000);
+        int[] ints = Sort1.generateArray(100000);
         long timeMillis = System.currentTimeMillis();
 //        int[] ints = {6,7,8,9,10,4,6,7};
         Sort7 sort7 = new Sort7();

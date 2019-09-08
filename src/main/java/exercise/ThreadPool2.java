@@ -13,6 +13,7 @@ import java.util.concurrent.*;
  * @date 2019/8/12 13:50
  */
 public class ThreadPool2 {
+
     public static void main(String[] args) {
         ThreadCreated threadCreated = new ThreadCreated();
         try {

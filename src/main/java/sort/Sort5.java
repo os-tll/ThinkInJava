@@ -14,7 +14,7 @@ public class Sort5 {
     public static void main(String[] args) {
         Sort1 sort1 = new Sort1();
         Sort5 sort5 = new Sort5();
-        int[] ints = sort1.generateArray(100000);
+        int[] ints = Sort1.generateArray(100000);
 //        int[] ints = {2,4,1,3,0,5};
         long timeMillis = System.currentTimeMillis();
         int[] sort = sort5.sort(ints);

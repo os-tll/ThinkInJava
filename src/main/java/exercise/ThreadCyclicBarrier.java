@@ -15,6 +15,7 @@ import java.util.concurrent.*;
  * @date 2019/8/19 17:02
  */
 public class ThreadCyclicBarrier {
+
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(3);
         Callable callable = ()->{
