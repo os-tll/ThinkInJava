@@ -8,7 +8,7 @@ package section5;
  */
 public class Ex14 {
     {
-        System.out.println();
+        System.out.println("aaa");
     }
     static String str1 = "123";
     static String str2;
@@ -17,6 +17,7 @@ public class Ex14 {
     }
 
     public static void main(String[] args) {
+        new Ex14();
         System.out.println(str1);
         System.out.println(str2);
     }
