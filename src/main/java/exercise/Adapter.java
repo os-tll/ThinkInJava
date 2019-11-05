@@ -1,6 +1,5 @@
 package exercise;
 
-import com.sun.xml.internal.ws.api.model.MEP;
 
 /**
  * 适配器模式

@@ -1,6 +1,5 @@
 package section11;
 
-import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
